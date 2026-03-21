@@ -48,6 +48,6 @@ func (ctrl *AnimalController) UploadImage(c *gin.Context) {
 		AnimalType: result.AnimalType,
 		Confidence: result.Confidence,
 		ImageURL:   result.ImageURL,
-	}, "성공적으로 분석되었습니다")
+	}, "성공적으로 분석되었습니다.")
 	c.JSON(http.StatusOK, response)
 }
