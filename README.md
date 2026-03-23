@@ -31,9 +31,9 @@ animal-face-go/
 ~~~
 
 ## roadmap
-- [] go mod init animal-face-go 프로젝트 초기화
-- [] gin을 이용한 기본 서버 띄우기 및 heathcheck api
-- [] GORM 설정 및 DB연동
+- [x] go mod init animal-face-go 프로젝트 초기화
+- [x] gin을 이용한 기본 서버 띄우기 및 heathcheck api
+- [x] GORM 설정 및 DB연동
 - [] 이미지 업로드를 위한 Multipart Form 핸들러 구현
 - [] Resty를 이용한 AI 서버 연동 로직 작성
 - [] 분석 결과 저장 및 RESTful API 완성
